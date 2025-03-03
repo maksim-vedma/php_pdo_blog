@@ -1,0 +1,5 @@
+<?php
+
+function excerpt(string $content): string {
+    return substr($content, 0, 60) . '...';
+}
